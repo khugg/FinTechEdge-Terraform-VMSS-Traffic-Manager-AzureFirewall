@@ -1,1 +1,4 @@
 *.tfstate
+*.exe
+*.zip
+*.tar.gz
