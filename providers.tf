@@ -1,28 +1,3 @@
-    # 1. Specify the version of the AzureRM Provider to use
-
-terraform {
-  required_providers {
-    azurerm = {
-      source = "hashicorp/azurerm"
-      version = "=4.14.0"
-    }
-  }
-}
-
-
-# 2.configure Microsoft Azure Provider
-
-
-provider "azurerm" {
-  features {}
-  subscription_id ="ed19ccdf-7b4a-4666-8948-3923639ec896"
-  tenant_id="69a24b27-7e8e-4b16-99b1-99134658842e"
-  client_id="5355660b-7628-43b1-9048-7e52434ce778"
-
-
- }
-    
-  
-    
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4991308456d8b15cf1626f2561970ee72767b623110dd2522a19c1cb7356ffd
+size 471
