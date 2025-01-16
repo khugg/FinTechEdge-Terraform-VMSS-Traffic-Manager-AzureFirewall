@@ -4,6 +4,7 @@ variable "vmss_desired_capacity" {
   default = 2
 }
 
+
 # Resource Group 1
 resource "azurerm_resource_group" "rg" {
   name     = "resource_group"
