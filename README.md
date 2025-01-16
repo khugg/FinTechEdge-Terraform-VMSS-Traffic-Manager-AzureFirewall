@@ -38,4 +38,6 @@ The Microsoft Azure Administrator involves the configuration, management, monito
 
 1.	Configuring environments
 
-a.Creating an Azure Service User (Core Service)Terraform uses a Core Service to interact with Azure:az ad sp create-for-rbac --name "your main service name" --role="Contributor" --scopes="/subscriptions/<subscription_id>"Copy the information provided:• AppID• Password• Tenant ID4.2 Initializing Terraform variablesCreate a terraform.tfvars file:subscription_id="your subscription_id"client_id="your client_id"client_secret= "your Client_secret"tenant_id = "your tenant_id"
+Creating an Azure Service User (Core Service)Terraform uses a Core Service to interact with Azure:az ad sp create-for-rbac --name "your main service name" --role="Contributor" --scopes="/subscriptions/<subscription_id>"Copy the information provided:• AppID• Password• Tenant ID4.2 Initializing Terraform variablesCreate a terraform.tfvars file:subscription_id="your subscription_id"client_id="your client_id"client_secret= "your Client_secret"tenant_id = "your tenant_id"
+
+Now we are ready to build our infrastructure !
